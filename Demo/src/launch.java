@@ -14,6 +14,10 @@ public class launch {
 		int count=s1.toUpperCase().length();
 		
 		System.out.println("the length of the string is :: "+count);
+		
+		StringBuffer sb=new StringBuffer("kohli");
+		int length=sb.append("indrcb").reverse().length();
+		System.out.println(length);
 
 	}
 
